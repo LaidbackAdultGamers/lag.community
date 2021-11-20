@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111111;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 124px;
+    font-weight: 500;
+    line-height: 72px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.community-name {
+    color: #777;
+}
+
+.community-name > span {
+    color: gainsboro;
+}
+
+.title .laggy {
+    width: 250px;
+}
+
+.title .right {
+    margin-left: 24px;
+}
+
+
+.socials > * {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials > * > .brand {
+    /*margin-right: 25px;*/
+    width: 292px;
+    height: 110px;
+}
+
+/* .discord-invite-banner */
+
+.discord-invite-banner {
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 432px;
+    height: 110px;
+    background-color: #2f3136;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.discord-invite-banner > .header {
+    color: #b9bbbe;
+    font-size: 12px;
+    margin-bottom: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.discord-invite-banner > .content {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+}
+
+.discord-invite-banner .server-icon {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #36393f;
+    margin-right: 16px;
+    border-radius: 15px;
+}
+
+.discord-invite-banner .server-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: white;
+}
+
+.discord-invite-banner .server-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.discord-invite-banner .server-status {
+    display: flex;
+    font-size: 16px;
+    color: #b9bbbe;
+}
+
+.discord-invite-banner .members-online {
+    margin-right: 8px;
+}
+
+.discord-invite-banner .bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+.discord-invite-banner .bullet.green {
+    background-color: #3ba55b;
+}
+
+.discord-invite-banner .bullet.grey {
+    background-color: #747f8d;
+}
+
+.discord-invite-banner .members-total {
+    margin-right: 8px;
+}
+
+.discord-invite-banner .server-join-button {
+    display: flex;
+    width: 63px;
+    height: 40px;
+    margin-left: 10px;
+    text-decoration: None;
+    background-color: #3ba55b;
+    color: white;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.17s;
+}
+
+.discord-invite-banner .server-join-button:hover {
+    background-color: #2d7d46;
+}
