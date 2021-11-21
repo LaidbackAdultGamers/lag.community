@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url(./assets/google_fonts/NanumPenScript/NanumPenScript.css);
 
 body {
     margin: 0;
@@ -35,6 +35,9 @@ body {
     margin-left: 24px;
 }
 
+.socials {
+    margin-top: 64px;
+}
 
 .socials > * {
     display: flex;
