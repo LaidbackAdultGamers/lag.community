@@ -1,5 +1,3 @@
-@import url(./assets/google_fonts/NanumPenScript/NanumPenScript.css);
-
 body {
     margin: 0;
     display: flex;
@@ -8,23 +6,6 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #111111;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    font-size: 124px;
-    font-weight: 500;
-    line-height: 72px;
-    font-family: 'Nanum Pen Script', cursive;
-}
-
-.community-name {
-    color: #777;
-}
-
-.community-name > span {
-    color: gainsboro;
 }
 
 .title .laggy {
@@ -46,7 +27,6 @@ body {
 }
 
 .socials > * > .brand {
-    /*margin-right: 25px;*/
     width: 292px;
     height: 110px;
 }
